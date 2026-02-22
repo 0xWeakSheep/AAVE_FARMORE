@@ -1,6 +1,10 @@
 ---
 name: aave-security-foundations
 description: Security baseline for AAVE integration and execution scripts. Use when user asks for AAVE security review, pre-trade checks, liquidation safety, allowance minimization, or execution hardening.
+license: MIT
+metadata:
+  author: AAVE AI Contributors
+  version: 1.0.0
 ---
 
 # AAVE Security Foundations

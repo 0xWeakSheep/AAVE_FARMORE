@@ -1,6 +1,10 @@
 ---
 name: aave-viem-integration
 description: Foundational EVM integration for AAVE-related scripts using viem. Use when user asks to read balances, read/write contracts, send transactions, or set up typed viem clients for Ethereum and Arbitrum.
+license: MIT
+metadata:
+  author: AAVE AI Contributors
+  version: 1.0.0
 ---
 
 # AAVE viem Integration
@@ -16,11 +20,6 @@ Provide reusable viem patterns for AAVE skill scripts and custom integrations.
 - Waiting for receipts and formatting execution output
 
 ## Quick Start
-
-```bash
-cd aave_skills
-npm install
-```
 
 ```typescript
 import { createPublicClient, createWalletClient, http } from 'viem';

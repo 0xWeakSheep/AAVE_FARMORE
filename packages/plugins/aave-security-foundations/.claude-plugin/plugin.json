@@ -1,20 +1,19 @@
 {
   "name": "aave-security-foundations",
-  "version": "0.1.0",
-  "description": "Security checks and validation for AAVE interactions",
+  "version": "1.0.0",
+  "description": "Security guidance and audit checklists for AAVE integrations",
   "author": {
-    "name": "0xWeakSheep",
-    "email": "oftiyf@gmail.com"
+    "name": "AAVE AI Contributors",
+    "email": "contributors@aave-ai.dev"
   },
   "homepage": "https://github.com/0xWeakSheep/AAVE_AI",
   "keywords": [
     "aave",
     "defi",
     "security",
-    "validation",
-    "checks"
+    "audit",
+    "checklist"
   ],
   "license": "MIT",
-  "skills": ["./skills/aave-security-foundations"],
-  "agents": []
+  "skills": ["./skills/security"]
 }

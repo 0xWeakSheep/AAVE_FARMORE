@@ -1,43 +1,46 @@
-# AAVE_AI
+# AAVE AI
 
-AAVE V3 AI tools (skills, plugins) for developers and AI agents integrating the AAVE protocol.
+AAVE-specific AI tools (skills, plugins, agents) for developers and AI agents integrating the AAVE V3 protocol.
+
+## Overview
+
+This repository contains Claude Code plugins and skills for interacting with AAVE V3:
+
+- **aave-integration**: Direct protocol integration for reading on-chain data and executing transactions
+- **aave-planner**: Position planning and strategy generation
+- **aave-risk-assessor**: Risk analysis and health factor monitoring
+- **aave-security-foundations**: Security guidance and audit checklists
+- **aave-viem-integration**: EVM blockchain integration using viem
 
 ## Quick Start
-
-```bash
-# Skills CLI (any agent)
-npx skills add 0xWeakSheep/AAVE_AI
-
-# Claude Code Marketplace
-/plugin marketplace add 0xweaksheep/aave-ai
-```
-
-## Plugins
-
-| Plugin | Description |
-|--------|-------------|
-| aave-integration | Core AAVE V3 integration and transaction execution |
-| aave-planner | Position planning and strategy optimization |
-| aave-risk-assessor | Risk assessment and health factor monitoring |
-| aave-security-foundations | Security checks and validation |
-| aave-viem-integration | viem-based EVM integration |
-
-## Development
 
 ```bash
 # Install dependencies
 npm install
 
-# Build all packages
-npm run build
-
-# Lint all packages
+# Run linting
 npm run lint
+
+# Run tests
+npm run test
 
 # Format code
 npm run format
 ```
 
+## Repository Structure
+
+```
+aave-ai/
+├── packages/plugins/
+│   ├── aave-integration/
+│   ├── aave-planner/
+│   ├── aave-risk-assessor/
+│   ├── aave-security-foundations/
+│   └── aave-viem-integration/
+└── ...
+```
+
 ## License
 
-MIT License
+MIT

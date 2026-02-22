@@ -1,35 +1,20 @@
-# aave-security-foundations
+# AAVE Security Foundations Plugin
 
-Security checks and validation for AAVE interactions.
+Security guidance and audit checklists for AAVE V3 integrations.
 
 ## Overview
 
-This plugin provides AI-powered assistance for security validation in AAVE V3 interactions, including:
-
-- Transaction validation
-- Security checks
-- Contract verification
-- Safe interaction patterns
-
-## Installation
-
-```bash
-/plugin install aave-security-foundations
-```
-
-## Usage
-
-Use this plugin when you need to:
-
-- Validate transactions before execution
-- Perform security checks
-- Verify contract interactions
-- Ensure safe operations
+This plugin provides:
+- Security best practices for AAVE integration
+- Pre-execution security checklists
+- Common failure patterns and how to avoid them
+- Audit guidance
 
 ## Skills
 
-- `aave-security-foundations` - AAVE security validation skill
+- **security**: Security foundations skill for AAVE V3 operations
 
-## License
+## References
 
-MIT
+- Audit checklist
+- Common failures documentation

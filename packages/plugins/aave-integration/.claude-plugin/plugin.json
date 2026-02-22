@@ -1,23 +1,21 @@
 {
   "name": "aave-integration",
-  "version": "0.1.0",
-  "description": "Core AAVE V3 integration and transaction execution",
+  "version": "1.0.0",
+  "description": "Direct AAVE V3 protocol integration for reading on-chain data and executing transactions",
   "author": {
-    "name": "0xWeakSheep",
-    "email": "oftiyf@gmail.com"
+    "name": "AAVE AI Contributors",
+    "email": "contributors@aave-ai.dev"
   },
   "homepage": "https://github.com/0xWeakSheep/AAVE_AI",
   "keywords": [
     "aave",
     "defi",
     "lending",
-    "v3",
-    "supply",
-    "borrow",
-    "repay",
-    "withdraw"
+    "borrowing",
+    "aave-v3",
+    "ethereum",
+    "arbitrum"
   ],
   "license": "MIT",
-  "skills": ["./skills/aave-integration"],
-  "agents": []
+  "skills": ["./skills/integration"]
 }

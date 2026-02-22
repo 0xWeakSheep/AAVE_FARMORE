@@ -1,9 +1,9 @@
 {
-  "name": "@aave-ai/aave-security-foundations",
-  "version": "0.1.0",
+  "name": "@aave/aave-security-foundations",
+  "version": "0.0.1",
   "private": true,
-  "description": "Security checks and validation for AAVE interactions",
-  "author": "0xWeakSheep <oftiyf@gmail.com>",
+  "description": "Security guidance and audit checklists for AAVE integrations",
+  "author": "AAVE AI Contributors <contributors@aave-ai.dev>",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -16,12 +16,12 @@
     "aave",
     "defi",
     "security",
-    "validation"
+    "audit",
+    "checklist"
   ],
   "files": [
     ".claude-plugin",
     "skills",
-    "agents",
     "README.md"
   ]
 }

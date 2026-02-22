@@ -1,39 +1,39 @@
 {
   "name": "aave-ai",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "owner": {
-    "name": "0xWeakSheep",
-    "email": "oftiyf@gmail.com"
+    "name": "AAVE AI Contributors",
+    "email": "contributors@aave-ai.dev"
   },
   "metadata": {
-    "description": "AAVE V3 AI tools (skills, plugins) for developers and AI agents integrating the AAVE protocol.",
+    "description": "AAVE V3-specific AI tools (skills, plugins, agents) for developers and AI agents integrating the AAVE protocol ecosystem.",
     "repository": "https://github.com/0xWeakSheep/AAVE_AI"
   },
   "plugins": [
     {
       "name": "aave-integration",
       "source": "./packages/plugins/aave-integration",
-      "description": "Core AAVE V3 integration and transaction execution"
+      "description": "Direct AAVE V3 protocol integration for reading on-chain data and executing transactions"
     },
     {
       "name": "aave-planner",
       "source": "./packages/plugins/aave-planner",
-      "description": "Position planning and strategy optimization for AAVE V3"
+      "description": "Position planning and strategy generation for AAVE V3"
     },
     {
       "name": "aave-risk-assessor",
       "source": "./packages/plugins/aave-risk-assessor",
-      "description": "Risk assessment and health factor monitoring for AAVE positions"
+      "description": "Risk analysis and health factor monitoring for AAVE positions"
     },
     {
       "name": "aave-security-foundations",
       "source": "./packages/plugins/aave-security-foundations",
-      "description": "Security checks and validation for AAVE interactions"
+      "description": "Security guidance and audit checklists for AAVE integrations"
     },
     {
       "name": "aave-viem-integration",
       "source": "./packages/plugins/aave-viem-integration",
-      "description": "viem-based EVM integration for AAVE V3"
+      "description": "EVM blockchain integration using viem for AAVE operations"
     }
   ]
 }

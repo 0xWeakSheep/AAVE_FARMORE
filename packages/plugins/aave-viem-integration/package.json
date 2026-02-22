@@ -1,9 +1,9 @@
 {
-  "name": "@aave-ai/aave-viem-integration",
-  "version": "0.1.0",
+  "name": "@aave/aave-viem-integration",
+  "version": "0.0.1",
   "private": true,
-  "description": "viem-based EVM integration for AAVE V3",
-  "author": "0xWeakSheep <oftiyf@gmail.com>",
+  "description": "EVM blockchain integration using viem for AAVE operations",
+  "author": "AAVE AI Contributors <contributors@aave-ai.dev>",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -16,12 +16,12 @@
     "aave",
     "defi",
     "viem",
-    "evm"
+    "ethereum",
+    "arbitrum"
   ],
   "files": [
     ".claude-plugin",
     "skills",
-    "agents",
     "README.md"
   ]
 }

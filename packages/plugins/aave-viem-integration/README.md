@@ -1,35 +1,21 @@
-# aave-viem-integration
+# AAVE viem Integration Plugin
 
-viem-based EVM integration for AAVE V3.
+EVM blockchain integration using viem for AAVE V3 operations.
 
 ## Overview
 
-This plugin provides AI-powered assistance for integrating AAVE V3 using viem, including:
-
-- viem client configuration
-- Contract interactions via viem
-- Type-safe blockchain calls
-- EVM utilities
-
-## Installation
-
-```bash
-/plugin install aave-viem-integration
-```
-
-## Usage
-
-Use this plugin when you need to:
-
-- Set up viem for AAVE interactions
-- Make type-safe contract calls
-- Handle EVM transactions
-- Use viem utilities with AAVE
+This plugin provides:
+- viem client setup and configuration
+- Chain-specific RPC selection
+- Reading ERC20 balances and allowances
+- Simulating and sending contract transactions
+- Waiting for receipts and formatting execution output
 
 ## Skills
 
-- `aave-viem-integration` - AAVE viem integration skill
+- **viem**: viem integration skill for AAVE V3 operations
 
-## License
+## References
 
-MIT
+- Clients and transports documentation
+- Contract read/write patterns
