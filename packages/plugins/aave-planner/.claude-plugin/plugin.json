@@ -1,0 +1,20 @@
+{
+  "name": "aave-planner",
+  "version": "0.1.0",
+  "description": "Position planning and strategy optimization for AAVE V3",
+  "author": {
+    "name": "0xWeakSheep",
+    "email": "oftiyf@gmail.com"
+  },
+  "homepage": "https://github.com/0xWeakSheep/AAVE_AI",
+  "keywords": [
+    "aave",
+    "defi",
+    "planning",
+    "strategy",
+    "position"
+  ],
+  "license": "MIT",
+  "skills": ["./skills/aave-planner"],
+  "agents": []
+}

@@ -1,0 +1,23 @@
+{
+  "name": "aave-integration",
+  "version": "0.1.0",
+  "description": "Core AAVE V3 integration and transaction execution",
+  "author": {
+    "name": "0xWeakSheep",
+    "email": "oftiyf@gmail.com"
+  },
+  "homepage": "https://github.com/0xWeakSheep/AAVE_AI",
+  "keywords": [
+    "aave",
+    "defi",
+    "lending",
+    "v3",
+    "supply",
+    "borrow",
+    "repay",
+    "withdraw"
+  ],
+  "license": "MIT",
+  "skills": ["./skills/aave-integration"],
+  "agents": []
+}

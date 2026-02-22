@@ -1,0 +1,8 @@
+{
+  "name": "aave-viem-integration",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "packages/plugins/aave-viem-integration",
+  "projectType": "library",
+  "tags": ["type:plugin", "scope:aave"],
+  "targets": {}
+}

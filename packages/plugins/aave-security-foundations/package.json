@@ -1,0 +1,27 @@
+{
+  "name": "@aave-ai/aave-security-foundations",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Security checks and validation for AAVE interactions",
+  "author": "0xWeakSheep <oftiyf@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0xWeakSheep/AAVE_AI.git",
+    "directory": "packages/plugins/aave-security-foundations"
+  },
+  "keywords": [
+    "claude-code",
+    "plugin",
+    "aave",
+    "defi",
+    "security",
+    "validation"
+  ],
+  "files": [
+    ".claude-plugin",
+    "skills",
+    "agents",
+    "README.md"
+  ]
+}
