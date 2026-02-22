@@ -1,46 +1,60 @@
-# AAVE AI
+# AAVE_FARMORE
 
-AAVE-specific AI tools (skills, plugins, agents) for developers and AI agents integrating the AAVE V3 protocol.
+AAVE V3 AI tools (skills, plugins) for developers and AI agents integrating the AAVE protocol.
 
-## Overview
+## Installation
 
-This repository contains Claude Code plugins and skills for interacting with AAVE V3:
+### Via npx skills (Universal - works with any agent)
 
-- **aave-integration**: Direct protocol integration for reading on-chain data and executing transactions
-- **aave-planner**: Position planning and strategy generation
-- **aave-risk-assessor**: Risk analysis and health factor monitoring
-- **aave-security-foundations**: Security guidance and audit checklists
-- **aave-viem-integration**: EVM blockchain integration using viem
+```bash
+# Install all skills
+npx skills add 0xWeakSheep/AAVE_FARMORE --all
 
-## Quick Start
+# Install specific skills
+npx skills add 0xWeakSheep/AAVE_FARMORE --skill aave-integration
+npx skills add 0xWeakSheep/AAVE_FARMORE --skill aave-planner
+```
+
+### Via Claude Code Plugin
+
+```bash
+# Add the marketplace
+/plugin marketplace add 0xWeakSheep/AAVE_FARMORE
+
+# Install individual plugins
+/plugin install aave-integration
+/plugin install aave-planner
+/plugin install aave-risk-assessor
+/plugin install aave-security-foundations
+/plugin install aave-viem-integration
+```
+
+## Skills
+
+| Skill | Description |
+|-------|-------------|
+| `aave-integration` | Direct AAVE V3 protocol integration for reading on-chain data and executing transactions |
+| `aave-planner` | Position planning and strategy generation for AAVE V3 |
+| `aave-risk-assessor` | Risk analysis and health factor monitoring for AAVE positions |
+| `aave-security-foundations` | Security guidance and audit checklists for AAVE integrations |
+| `aave-viem-integration` | EVM blockchain integration using viem for AAVE operations |
+
+## Development
 
 ```bash
 # Install dependencies
 npm install
 
-# Run linting
-npm run lint
+# Build all packages
+npm run build
 
-# Run tests
-npm run test
+# Lint all packages
+npm run lint
 
 # Format code
 npm run format
 ```
 
-## Repository Structure
-
-```
-aave-ai/
-├── packages/plugins/
-│   ├── aave-integration/
-│   ├── aave-planner/
-│   ├── aave-risk-assessor/
-│   ├── aave-security-foundations/
-│   └── aave-viem-integration/
-└── ...
-```
-
 ## License
 
-MIT
+MIT License
