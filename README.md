@@ -8,7 +8,7 @@ AAVE V3 AI tools (skills, plugins) for developers and AI agents integrating the 
 
 ```bash
 # Install all skills
-npx skills add 0xWeakSheep/AAVE_FARMORE --all
+npx skills add 0xWeakSheep/AAVE_FARMORE
 
 # Install specific skills
 npx skills add 0xWeakSheep/AAVE_FARMORE --skill aave-integration
