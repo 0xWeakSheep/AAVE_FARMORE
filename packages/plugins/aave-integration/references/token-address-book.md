@@ -77,7 +77,7 @@ The following assets are supported in the first batch:
 ### Non-Whitelisted Assets
 - **Read operations**: Allowed for market research and exploration
 - **Write operations**: Not allowed in first version
-- **Error message**: "⚠️ **该资产(${token})不在首批支持列表中**。首版仅支持白名单资产交易，如需支持该资产，请联系团队扩展白名单。"
+- **Error message**: "⚠️ **Asset ${token} is not in the supported whitelist**. Only whitelisted assets are supported. Contact the team to extend the whitelist if needed."
 
 ## Extension Mechanism
 New assets can be added via configuration PR:
